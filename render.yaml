@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: botprofessor9
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7928144849:AAH9yUujkqZ47sipfFpgmCWI43y2cBIIBUo
